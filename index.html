@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympics 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Paris Olympics 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="boxing.html">Boxing</a></li>
+                <li><a href="basketball.html">Basketball</a></li>
+                <li><a href="athletics.html">Athletics</a></li>
+                <li><a href="badminton.html">Badminton</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Trending News Section -->
+        <section id="trending-news">
+            <h2>Trending News</h2>
+
+            <!-- News Card 1 -->
+            <div class="news-card">
+                <h3>Latest Football News</h3>
+                <p>The latest updates from the football events at the Olympics 2024, including match results and player highlights.</p>
+                <button onclick="lastUpdated()">Last Updated</button>
+            </div>
+
+            <!-- News Card 2 -->
+            <div class="news-card">
+                <h3>Basketball Highlights</h3>
+                <p>Basketball continues to be one of the most popular sports during the Olympics, with thrilling games and standout performances.</p>
+                <button onclick="lastUpdated()">Last Updated</button>
+            </div>
+        </section>
+        <section id="contact-form" class="news-card" style="margin: 20px auto; padding: 20px; background-color: #f7f7f7; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); max-width: 600px;">
+            <h3 style="text-align: center;">Contact Us</h3>
+            <form style="display: flex; flex-direction: column; align-items: center;">
+                <label for="name" style="width: 100%; margin-bottom: 5px;">Name:</label>
+                <input type="text" id="name" name="name" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;" required>
+        
+                <label for="email" style="width: 100%; margin-bottom: 5px;">Email:</label>
+                <input type="email" id="email" name="email" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;" required>
+        
+                <label for="password" style="width: 100%; margin-bottom: 5px;">Password:</label>
+                <input type="password" id="password" name="password" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;" required>
+        
+                <div style="width: 100%; margin-bottom: 15px;">
+                    <input type="checkbox" id="checkbox" name="subscribe">
+                    <label for="checkbox">Subscribe to our newsletter</label>
+                </div>
+        
+                <label for="select" style="width: 100%; margin-bottom: 5px;">Select your favorite sport:</label>
+                <select id="select" name="sport" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+                    <option value="boxing">Boxing</option>
+                    <option value="basketball">Basketball</option>
+                    <option value="athletics">Athletics</option>
+                    <option value="badminton">Badminton</option>
+                </select>
+        
+                <label for="message" style="width: 100%; margin-bottom: 5px;">Message:</label>
+                <textarea id="message" name="message" rows="4" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+        
+                <button type="submit" style="padding: 10px 20px; background-color: #2b6765; color: white; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+            </form>
+        </section>
+        
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Sports News Portal</p>
+        <div class="social-links">
+            <a href="https://github.com/sanyasukhyani" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/sanya-sukhyani-b22549325" target="_blank">LinkedIn</a>
+            <a href="https://instagram.com/sanya_sukhyani13" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript function to display the last updated time
+        function lastUpdated() {
+            alert("This section was last updated on August 27, 2024.");
+        }
+    </script>
+</body>
+</html>
